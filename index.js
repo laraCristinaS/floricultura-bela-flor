@@ -19,7 +19,7 @@ const plantas = [
     },
     {
         nome: "Orquídea",
-        imagem: "https://www.jardineiro.net/wp-content/uploads/orquidea.jpg",
+        imagem: "https://orquideasblog.com/wp-content/uploads/2020/02/Malton.jpg",
         cuidados: {
             luz: "Luz indireta",
             agua: "2 vezes por semana",
@@ -52,3 +52,4 @@ function mostrarDetalhes(index) {
     const detalhes = document.getElementById(`detalhes-${index}`);
     detalhes.style.display = detalhes.style.display === "block" ? "none" : "block";
 }
+
